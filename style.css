@@ -1,0 +1,147 @@
+html {
+  transition: smooth;
+}
+
+/* Navigation bar section */
+
+.navbar-background {
+  background-color: black;
+  height: 3.5rem;
+
+}
+
+.navbar-brand {
+  color: white;
+  font-family: 'Allerta Stencil', sans-serif;
+  font-size: 35px;
+  padding-bottom: 10px;
+  position:relative;
+}
+
+.navbar-brand:hover {
+  color: white;
+}
+
+.nav-item {
+  display:inline-block;
+  font-size: 1rem;
+}
+
+.nav-link {
+  color: white;
+  padding-top: 20;
+}
+
+.nav-link:hover {
+  color: gray;
+}
+
+.navbar-assist {
+  color: white;
+  margin-top: 15px;
+  padding-left: 4rem;
+}
+
+.navbar-assist:hover {
+  color: gray;
+}
+
+.navbar-menu {
+  margin: 8px auto;
+}
+
+.nav-search {
+  color: white;
+  display: inline;
+  margin-left: 30px;
+  padding-right: 10px;
+}
+
+.nav-search:hover {
+  color: grey;
+}
+
+.title-image {
+  padding-bottom: 5px;
+}
+
+/* Highlights Section */
+
+.highlights-background {
+  background-color: #28527a;
+  height: 70px;
+  padding-top: 10px;
+}
+
+.highlights-text {
+  color: white;
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.5rem;
+  letter-spacing: 0.2rem;
+  margin: auto auto 0 auto;
+}
+
+.carousel-price {
+  background-color: black;
+  border-radius: 25px;
+  margin: 20px auto;
+  width: 250px;
+}
+
+.carousel-button {
+  margin: 15px 10px;
+}
+
+.highlights-bottom-background {
+  background-color: #28527a;
+  height: 70px;
+}
+
+/* Featured Section */
+
+.featured-background {
+  background-color: #8ac4d0;
+  height: 900px;
+  padding-top: 10px;
+}
+
+.featured-text {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.5rem;
+  letter-spacing: 0.2rem;
+  margin: auto auto 0 auto;
+}
+
+.card {
+  margin: 15px auto;
+}
+
+/* Footer Section */
+
+.footer-text {
+  padding-left: 90px;
+}
+
+.footer-background {
+  background-color: black;
+  height: 100px;
+}
+
+.copyright-text {
+  color: gray;
+  font-size: 0.8rem;
+}
+
+.social-icon {
+  height: 30px;
+  margin: 20px 10px;
+  width: 30px;
+}
+
+.social-icon:hover {
+  color: white;
+}
+
+@media (max-width: 1028px) {
+
+}
