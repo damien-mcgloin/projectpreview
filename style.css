@@ -183,7 +183,7 @@ html {
   }
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 700px) {
 
     .navbar-brand {
     font-size: 50px;
