@@ -45,18 +45,6 @@ html {
   color: gray;
 }
 
-.navbar-menu {
-  display: inline-block;
-  margin: 8px auto;
-  padding: 0;
-}
-
-.navbar-dropdown {
-  display: inline-block;
-  margin: 8px auto;
-  padding: 0;
-}
-
 .nav-search {
   color: white;
   display:inline-block;
@@ -151,13 +139,14 @@ html {
 }
 
 .social-icon {
+  color: white;
   height: 30px;
   margin: 20px 10px;
   width: 30px;
 }
 
 .social-icon:hover {
-  color: white;
+  color: gray;
 }
 
 @media (max-width: 1200px) {
