@@ -24,11 +24,16 @@ html {
 .nav-item {
   display:inline-block;
   font-size: 1rem;
+  margin: auto;
+}
+
+.navbar-menu {
+  margin-top: 5px;
 }
 
 .nav-link {
   color: white;
-  padding: 20 auto;
+  padding: auto;
 }
 
 .nav-link:hover {
@@ -37,7 +42,7 @@ html {
 
 .navbar-assist {
   color: white;
-  margin-top: 15px;
+  margin: 15px 80px;
   padding-left: 4rem;
 }
 
