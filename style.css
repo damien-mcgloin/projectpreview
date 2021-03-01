@@ -126,6 +126,14 @@ html {
   margin: 15px auto;
 }
 
+.card-price {
+  margin-right: 0.2rem;
+}
+
+.card-button {
+  margin-left: 5px;
+}
+
 /* Footer Section */
 
 .footer-text {
@@ -153,6 +161,7 @@ html {
 }
 
 @media (max-width: 1200px) {
+
   .card-text {
     display: none;
   }
@@ -165,9 +174,3 @@ html {
     display: none;
   }
 }
-
-@media (max-width: 1024px) {
-
-}
-
-
