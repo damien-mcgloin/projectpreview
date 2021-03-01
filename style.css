@@ -6,8 +6,7 @@ html {
 
 .navbar-background {
   background-color: black;
-  height: 3.5rem;
-
+  height: auto;
 }
 
 .navbar-brand {
@@ -161,6 +160,23 @@ html {
   .navbar-assist {
     display: none;
   }
+
+  .navbar-menu {
+    display: none;
+  }
+}
+
+@media (max-width: 1024px) {
+
+  .navbar-brand {
+    font-size: 50px;
+  }
+
+  #navbarDropdownMenuLink {
+    font-size: 24px;
+  }
+
+}
 
   .navbar-menu {
     display: none;
