@@ -32,33 +32,58 @@
 
     <div class="navbar-background container-fluid">
       <div class="row">
-        <div class="col-sm-4">
+        <div class="navbar-logo col-lg-3 col-sm-6">
           <a class="navbar-brand"><img class="title-image" src="https://cdn.glitch.com/f1678d51-50e6-4ba7-a0ab-ddd4a76e5657%2Fcircle-cropped.png?v=1614470190368" alt="outer-heaven-logo" width="45" height="50">UTER HEAVEN</a>
         </div>
 
-        <div class="navbar-menu d-flex justify-content-left col-sm-6">
-          <li class="nav-item">
-            <a class="nav-link" href="#featured">FEATURED</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">COMMUNITY</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">SUPPORT</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">SIGN IN</a>
-          </li>
+        <div class="navbar-menu col-sm-5">
+          <div class="d-flex justify-content-left">
+            <li class="nav-item">
+              <a class="nav-link" href="#featured">FEATURED</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">COMMUNITY</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">SUPPORT</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">SIGN IN</a>
+            </li>
+          </div>
         </div>
 
-        <div class="d-flex justify-content-end navbar-assist col-sm-2">
-          <li class="nav-item">
-            <a class="nav-search" href="#"><i class="fas fa-search"></i></a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-search" href="#"><i class="fas fa-cart-plus"></i></a>
+
+
+        <div class="navbar-assist col-sm-2">
+          <div class="d-flex justify-content-end">
+            <li class="nav-item">
+              <a class="nav-search" href="#"><i class="fas fa-search"></i></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-search" href="#"><i class="fas fa-cart-plus"></i></a>
+            </li>
+          </div>
+        </div>
+
+        <div class="navbar-dropdown col-lg-2 col-md-6 col-sm-6">
+          <div class="d-flex justify-content-end">
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              MENU
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <li><a class="dropdown-item" href="#">Featured</a></li>
+              <li><a class="dropdown-item" href="#">Community</a></li>
+              <li><a class="dropdown-item" href="#">Support</a></li>
+              <li><a class="dropdown-item" href="#">Sign in</a></li>
+              <li><a class="dropdown-item" href="#">Search</a></li>
+              <li><a class="dropdown-item" href="#">Cart</a></li>
+            </ul>
           </li>
         </div>
+        </div>
+
       </div>
     </div>
 
@@ -122,7 +147,7 @@
       <h2 class="featured-text"><i class="fas fa-star"></i> Featured</h2>
       <hr class="featured-line">
       <div class="row">
-        <div class="card col-lg-4" style="width: 18rem;">
+        <div class="card col-lg-4 col-sm-6" style="width: 18rem;">
           <img src="https://cdn.glitch.com/f1678d51-50e6-4ba7-a0ab-ddd4a76e5657%2Fomori.jpg?v=1614519727794" class="card-img-top" alt="...">
           <div class="card-body">
             <h5 class="card-title">Omori</h5>
@@ -130,7 +155,7 @@
             <a href="#" class="btn btn-success">Add to cart</a>
           </div>
         </div>
-        <div class="card col-lg-4" style="width: 18rem;">
+        <div class="card col-lg-4 col-sm-6" style="width: 18rem;">
           <img src="https://cdn.glitch.com/f1678d51-50e6-4ba7-a0ab-ddd4a76e5657%2Fbaldur's%20gate%203.jpg?v=1614519727769" class="card-img-top" alt="...">
           <div class="card-body">
             <h5 class="card-title">Baldur's Gate 3</h5>
@@ -138,7 +163,7 @@
             <a href="#" class="btn btn-success">Add to cart</a>
           </div>
         </div>
-        <div class="card col-lg-4" style="width: 18rem;">
+        <div class="card col-lg-4 col-sm-6" style="width: 18rem;">
           <img src="https://cdn.glitch.com/f1678d51-50e6-4ba7-a0ab-ddd4a76e5657%2Fouter%20worlds.jpg?v=1614538047343" class="card-img-top" alt="...">
           <div class="card-body">
             <h5 class="card-title">The Outer Worlds</h5>
@@ -148,7 +173,7 @@
         </div>
       </div>
       <div class="row">
-        <div class="card col-lg-4" style="width: 18rem;">
+        <div class="card col-lg-4 col-sm-6" style="width: 18rem;">
           <img src="https://cdn.glitch.com/f1678d51-50e6-4ba7-a0ab-ddd4a76e5657%2FSUPERHOT.jpg?v=1614538258595" class="card-img-top" alt="...">
           <div class="card-body">
             <h5 class="card-title">SUPERHOT</h5>
@@ -156,7 +181,7 @@
             <a href="#" class="btn btn-success">Add to cart</a>
           </div>
         </div>
-        <div class="card col-lg-4" style="width: 18rem;">
+        <div class="card col-lg-4 col-sm-6" style="width: 18rem;">
           <img src="https://cdn.glitch.com/f1678d51-50e6-4ba7-a0ab-ddd4a76e5657%2Fpyre.jpg?v=1614538191839" class="card-img-top" alt="...">
           <div class="card-body">
             <h5 class="card-title">Pyre</h5>
@@ -164,7 +189,7 @@
             <a href="#" class="btn btn-success">Add to cart</a>
           </div>
         </div>
-        <div class="card col-lg-4" style="width: 18rem;">
+        <div class="card col-lg-4 col-sm-6" style="width: 18rem;">
           <img src="https://cdn.glitch.com/f1678d51-50e6-4ba7-a0ab-ddd4a76e5657%2Fcontrol.jpg?v=1614538326088" class="card-img-top" alt="...">
           <div class="card-body">
             <h5 class="card-title">Control</h5>
@@ -173,6 +198,8 @@
           </div>
         </div>
       </div>
+
+    </div>
     </div>
 
   </section>
@@ -181,17 +208,19 @@
   <section id="footer">
     <div class="footer-background container-fluid">
       <div class="row">
-        <div class="footer-text col-lg-9">
+        <div class="footer-text col-lg-9 col-md-8 col-sm-12">
           <a class="navbar-brand"><img class="title-image" src="https://cdn.glitch.com/f1678d51-50e6-4ba7-a0ab-ddd4a76e5657%2Fcircle-cropped.png?v=1614470190368" alt="outer-heaven-logo" width="45" height="50">UTER HEAVEN</a>
           <p class="copyright-text">© Copyright Outer Heaven. All trademarks and registered trademarks are the property of their respective owners.</p>
         </div>
-        <div class="footer-social col-lg-3">
-          <i class="social-icon fab fa-facebook-f">
-            <link href="www.facebook.com" />
-          </i>
-          <i class="social-icon fab fa-twitter" href="#"></i>
-          <i class="social-icon fab fa-instagram" href="#"></i>
-          <i class="social-icon fas fa-envelope" href="#"></i>
+        <div class="footer-social col-lg-3 col-md-4">
+          <div class="d-flex justify-content-end">
+            <i class="social-icon fab fa-facebook-f">
+              <link href="www.facebook.com" />
+            </i>
+            <i class="social-icon fab fa-twitter" href="#"></i>
+            <i class="social-icon fab fa-instagram" href="#"></i>
+            <i class="social-icon fas fa-envelope" href="#"></i>
+          </div>
         </div>
       </div>
     </div>
