@@ -29,7 +29,7 @@ html {
 
 .nav-link {
   color: white;
-  padding-top: 20;
+  padding: 20 auto;
 }
 
 .nav-link:hover {
@@ -49,6 +49,13 @@ html {
 .navbar-menu {
   display: inline-block;
   margin: 8px auto;
+  padding: 0;
+}
+
+.navbar-dropdown {
+  display: inline-block;
+  margin: 8px auto;
+  padding: 0;
 }
 
 .nav-search {
@@ -104,7 +111,7 @@ html {
 
 .featured-background {
   background-color: #8ac4d0;
-  height: 900px;
+  height: auto;
   padding-top: 10px;
 }
 
@@ -128,7 +135,7 @@ html {
 
 .footer-background {
   background-color: black;
-  height: 100px;
+  height: auto;
 }
 
 .copyright-text {
@@ -146,6 +153,22 @@ html {
   color: white;
 }
 
-@media (max-width: 1028px) {
+@media (max-width: 1200px) {
+  .card-text {
+    display: none;
+  }
+
+  .navbar-assist {
+    display: none;
+  }
+
+  .navbar-menu {
+    display: none;
+  }
+}
+
+@media (max-width: 1024px) {
+
 
 }
+
