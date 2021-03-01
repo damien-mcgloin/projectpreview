@@ -47,14 +47,17 @@ html {
 }
 
 .navbar-menu {
+  display: inline-block;
   margin: 8px auto;
 }
 
 .nav-search {
   color: white;
-  display: inline;
-  margin-left: 30px;
-  padding-right: 10px;
+  display:inline-block;
+  margin-bottom: 5px;
+  padding-right: 20px;
+  position: relative;
+
 }
 
 .nav-search:hover {
@@ -113,6 +116,7 @@ html {
 }
 
 .card {
+  border-radius: 15px;
   margin: 15px auto;
 }
 
