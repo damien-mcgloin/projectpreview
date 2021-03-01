@@ -169,6 +169,13 @@ html {
 
 @media (max-width: 1024px) {
 
+    .navbar-brand {
+    font-size: 50px;
+  }
+
+  #navbarDropdownMenuLink {
+    font-size: 24px;
+  }
 
 }
 
