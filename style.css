@@ -2,6 +2,7 @@ html {
   transition: smooth;
 }
 
+/* Index Page */
 /* Navigation bar section */
 
 .navbar-background {
@@ -105,6 +106,7 @@ html {
   background-color: #8ac4d0;
   height: auto;
   padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 .featured-text {
@@ -121,6 +123,10 @@ html {
 
 .card-price {
   margin-right: 0.2rem;
+}
+
+.card-picture {
+  margin-top: 10px;
 }
 
 .card-button {
@@ -152,6 +158,26 @@ html {
 
 .social-icon:hover {
   color: gray;
+}
+
+/* Support Page */
+/* Issues Section */
+
+.issues-background {
+  background-color: #8ac4d0;
+  height: auto;
+}
+
+.welcome-msg {
+  font-family: 'Roboto', sans-serif;
+  padding-top: 30px;
+  text-align: center;
+}
+
+.popular-topics {
+  font-family: 'Roboto', sans-serif;
+  padding-top: 30px;
+  text-align: center;
 }
 
 @media (max-width: 1200px) {
