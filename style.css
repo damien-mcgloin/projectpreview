@@ -165,20 +165,80 @@ html {
 /* Issues Section */
 
 .issues-background {
-  background-color: #8ac4d0;
+  background-color: #28527a;
+  color: white;
+  font-family: 'Roboto', sans-serif;
   height: auto;
+  padding: 30px 0;
+  text-align: center;
+}
+
+.support-games {
+  height: auto;
+  width: 800px;
 }
 
 .welcome-msg {
-  font-family: 'Roboto', sans-serif;
-  padding-top: 30px;
-  text-align: center;
+  font-family: 'Allerta Stencil', sans-serif;
+  padding-top: 2rem;
+  text-decoration:underline;
 }
 
-.popular-topics {
+.welcome-background {
+  background-color: black;
+  border-radius: 15px;
+  height: 130px;
+  margin: 50px auto 50px;
+  width: auto;
+}
+
+.notice-text {
+  font-size: 0.9rem;
+}
+
+.notice-text-color {
+  color: #D9BB5F;
+  font-size: 1rem;
+}
+
+.help-icon {
+  color: #D9BB5F;
+  margin: 10px auto;
+}
+
+.help-icon:hover {
+  color: white;
+}
+
+.help-text {
+  color: white;
+}
+
+/* Assistance Section */
+
+.assistance-background {
+  background-color: #8ac4d0;
+  color: black;
+  height: auto;
   font-family: 'Roboto', sans-serif;
   padding-top: 30px;
-  text-align: center;
+  text-align: left;
+}
+
+.tablet-icon {
+  color: white;
+}
+
+.gameissues-hr {
+  color: gray;
+}
+
+.general-advice {
+  text-decoration:underline;
+}
+
+.issues-section-end {
+  margin-bottom: 0rem;
 }
 
 @media (max-width: 1200px) {
