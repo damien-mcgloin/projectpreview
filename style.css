@@ -308,6 +308,7 @@ html {
 .title-image {
   height: 80px;
   width: 75px;
+  margin-bottom: 10px;
 }
 
 .navbar-brand {
