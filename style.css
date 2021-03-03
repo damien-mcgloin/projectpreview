@@ -255,10 +255,17 @@ html {
 .help-text {
   font-family: 'Roboto', sans-serif;
   margin: auto;
-  padding-top: 0.8rem;
-  padding-bottom: 0.5rem;
   text-align: center;
   width: 80%;
+}
+
+.help-top-text {
+  padding-top: 1rem;
+}
+
+.help-bottom-text {
+  padding-top: 0.5rem;
+  padding-bottom: 1.5rem;
 }
 
 /* Product Page */
