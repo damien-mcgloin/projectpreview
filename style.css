@@ -254,16 +254,26 @@ html {
   .navbar-menu {
     display: none;
   }
+
+  .social-icon {
+    display: none;
+  }
+
 }
 
 @media (max-width: 1000px) {
-  
+
+.title-image {
+  height: 80px;
+  width: 75px;
+}
+
 .navbar-brand {
-  font-size: 3rem;
+  font-size: 4.5rem;
 }
 
 .dropdown-menu {
-  font-size: 1.5rem;
+  font-size: 2rem;
 }
 
 }
