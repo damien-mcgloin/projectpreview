@@ -294,7 +294,7 @@ html {
 
 .product-carousel {
   margin: auto;
-  max-width: 80%;
+  max-width: 77%;
 }
 
 .game-picture-description {
@@ -308,8 +308,9 @@ html {
 
 .product-description {
   height: auto;
+  margin: auto;
   margin-top: 50px;
-  width: 80%;
+  width: 77%;
 }
 
 .product-name {
@@ -329,7 +330,7 @@ html {
 }
 
 .product-description-table {
-  margin: 50px auto 50px;
+  margin: 50px auto auto;
   width: 80%;
 }
 
