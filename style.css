@@ -292,6 +292,11 @@ html {
   height: auto;
 }
 
+.product-carousel {
+  margin: auto;
+  max-width: 80%;
+}
+
 .game-picture-description {
   display: inline;
   margin-left: 3%;
