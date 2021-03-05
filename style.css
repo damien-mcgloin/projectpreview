@@ -437,5 +437,11 @@ html {
 .metal-gear-pic {
   display: none;
 }
+  
+.recommended-list {
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
 
 }
