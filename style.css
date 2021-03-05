@@ -441,9 +441,9 @@ html {
   color: gray;
 }
 
-.upcoming-games-vote {
-  margin-left: auto;
-  width: 30%;
+.community-page-banner {
+  margin-top: 10px;
+  padding-left: 50px;
 }
 
 .news-trailers {
@@ -482,7 +482,7 @@ html {
 .signup-forum {
   color: white;
   margin: auto;
-  width: 60%;
+  width: 67%;
 }
 
 .white-line {
@@ -492,7 +492,7 @@ html {
 .signup-title {
   color: white;
   margin: auto;
-  width: 80%;
+  width: 67%;
 }
 
 .sales-pitch {
@@ -522,6 +522,10 @@ html {
     display: none;
   }
 
+  .community-page-banner {
+    display: none;
+  }
+
 }
 
 @media (max-width: 1000px) {
@@ -544,14 +548,14 @@ html {
   display: none;
 }
 
+.trailer {
+  height: 25rem;
+}
+
 .recommended-list {
   margin: auto;
   margin-top: 20px;
   margin-bottom: 20px;
-}
-
-.trailer {
-  height: 25rem;
 }
 
 }
