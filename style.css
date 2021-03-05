@@ -334,6 +334,70 @@ html {
   width: 80%;
 }
 
+/* Recommended Page */
+/* Recommended Header Section */
+
+.ghost-ad {
+  width: 100%;
+}
+
+.recommended-background {
+  background-color: #28527a;
+  height: auto;
+  padding: 30px 0;
+}
+
+.recommended-games-background {
+  background-color:  #8ac4d0;
+}
+
+.recommended-button {
+  color: black;
+}
+
+.recommended-line {
+  margin: 0;
+}
+
+.recommended-section {
+  padding-top: 10px;
+  margin: auto;
+  width: 80%;
+}
+
+.recommended-list {
+  margin-left: 160px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.metal-gear-pic {
+  position: relative;
+  margin: auto;
+  margin-top: 50px;
+  max-width: 70%;
+}
+
+/* Community Recommendation Section */
+
+.Community-Recommendation-background {
+  background-color: #28527a;
+  color: white;
+}
+
+.Community-Recommendation-text {
+  padding-top: 10px;
+  margin: auto;
+  text-align: center;
+  width: 75%;
+}
+
+.community-pic {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin: auto;
+}
+
 @media (max-width: 1200px) {
 
   .card-text {
@@ -368,6 +432,10 @@ html {
 
 .dropdown-menu {
   font-size: 2rem;
+}
+
+.metal-gear-pic {
+  display: none;
 }
 
 }
