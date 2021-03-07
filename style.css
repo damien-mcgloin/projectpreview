@@ -170,6 +170,27 @@ html {
 /* Support Page */
 /* Issues Section */
 
+.issues-width {
+  margin: auto;
+  width:80%;
+}
+
+.issues-section-padding {
+  padding-bottom: 30px;
+}
+
+.issues-topic {
+  padding-bottom: 20px;
+}
+
+.general-advice {
+  padding-top: 20px;
+}
+
+.issues-title {
+  padding-top: 20px;
+}
+
 .issues-background {
   background-color: #28527a;
   color: white;
@@ -563,3 +584,4 @@ html {
 }
 
 }
+
