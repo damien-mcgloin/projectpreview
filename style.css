@@ -382,6 +382,7 @@ html {
 
 .recommended-button {
   color: black;
+  margin-left: 0;
 }
 
 .recommended-line {
@@ -553,10 +554,6 @@ html {
 
   .community-page-banner {
     display: none;
-  }
-
-  .recommended-button {
-    margin-left: 0;
   }
 
 }
