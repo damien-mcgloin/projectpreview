@@ -22,6 +22,9 @@
   <!-- Font Awesome -->
   <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
 
+  <!-- JQuery -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+
   <title>Outer Heaven</title>
 </head>
 
@@ -51,13 +54,7 @@
           </div>
         </div>
 
-        <div class="navbar-assist col">
-          <li class="nav-item">
-            <a class="nav-search" href="#"><i class="fas fa-cart-plus"></i></a>
-          </li>
-        </div>
-
-        <div class="d-flex justify-content-end dropdown col">
+        <div class="dropdown d-flex justify-content-end col menu-button">
           <button class="btn btn-secondary dropdown-toggle btn-dark" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
             MENU
           </button>
@@ -65,8 +62,17 @@
             <li><a class="dropdown-item" href="recommended.html">Recommended</a></li>
             <li><a class="dropdown-item" href="community.html">Community</a></li>
             <li><a class="dropdown-item" href="support.html">Support</a></li>
-            <li><a class="dropdown-item" href="community.html#signup">Sign Up</a></li>
-            <li><a class="dropdown-item" href="#">Cart</a></li>
+            <li><a class="dropdown-item" href="community.html#signup">Sign in</a></li>
+            <li><a class="dropdown-item" href="#">Go to Cart</a></li>
+            <li><a class="dropdown-item" href="#">
+                <div class="cart">
+                  <div class="cart-header">Cart Info</div>
+                  <div class="cart-body" data-cart="display">
+                    <div>Total item(s): <span data-cart-total-item="0">0</span></div>
+                    <div>Total Price: $<span data-cart-total-price="0">0.00</span></div>
+                  </div>
+                </div></span></li>
+            </a></li>
             <li><a class="dropdown-item" href="#"><input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"></a></li>
           </ul>
         </div>
@@ -80,63 +86,63 @@
 
   <section id="product">
 
-  <div class="product-background container-fluid">
-    <img src="https://cdn.glitch.com/f1678d51-50e6-4ba7-a0ab-ddd4a76e5657%2Fesqrcd.png?v=1614808077782" alt="header-image" class="img-fluid">
-  </div>
+    <div class="product-background container-fluid">
+      <img src="https://cdn.glitch.com/f1678d51-50e6-4ba7-a0ab-ddd4a76e5657%2Fesqrcd.png?v=1614808077782" alt="header-image" class="img-fluid">
+    </div>
 
-  <div class="product-info-background container-fluid">
-    <h2 class="product-name">Product Name e.g Counter-Strike</h2>
-    <hr>
-    <div class="container-fluid">
-    <div class="row">
-      <div class="product-info-top col-lg-6">
-        <p></p>
-      <h4><i class="fas fa-star"></i> 4/5 <i class="fab fa-windows"></i> English</h4>
-      </div>
-      <div class="product-info-bottom col-lg-6">
-      <h4>Price: $14.99 <button type="button" class="carousel-button btn btn-success">Add to cart</button></h4>
-      </div>
+    <div class="product-info-background container-fluid">
+      <h2 class="product-name">Product Name e.g Counter-Strike</h2>
       <hr>
-    </div>
-    </div>
-
-    <div id="carouselFeatured" class="carousel slide" data-bs-ride="carousel">
-      <div class="carousel-indicators">
-        <button type="button" data-bs-target="#carouselFeatured" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-        <button type="button" data-bs-target="#carouselFeatured" data-bs-slide-to="1" aria-label="Slide 2"></button>
-        <button type="button" data-bs-target="#carouselFeatured" data-bs-slide-to="2" aria-label="Slide 3"></button>
-      </div>
-      <div class="carousel-inner">
-        <div class="carousel-item active">
-          <img src="https://cdn.glitch.com/f1678d51-50e6-4ba7-a0ab-ddd4a76e5657%2F10873456.jpg?v=1614881344684" class="d-block w-100 product-carousel" alt="cs-picture">
-        </div>
-        <div class="carousel-item">
-          <img src="https://cdn.glitch.com/f1678d51-50e6-4ba7-a0ab-ddd4a76e5657%2F1409302.jpg?v=1614881345620" class="d-block w-100 product-carousel" alt="cs-picture">
-        </div>
-        <div class="carousel-item">
-          <img src="https://cdn.glitch.com/f1678d51-50e6-4ba7-a0ab-ddd4a76e5657%2F6ac81d1d7bba60937db2e3f4a34059c5.jpg?v=1614881346394" class="d-block w-100 product-carousel" alt="cs-picture">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="product-info-top col-lg-6">
+            <p></p>
+            <h4><i class="fas fa-star"></i> 4/5 <i class="fab fa-windows"></i> English</h4>
+          </div>
+          <div class="product-info-bottom col-lg-6">
+            <h4>Price: $14.99 <button type="button" class="carousel-button btn btn-success product">Add to cart</button></h4>
+          </div>
+          <hr>
         </div>
       </div>
-      <button class="carousel-control-prev" type="button" data-bs-target="#carouselFeatured" data-bs-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Previous</span>
-      </button>
-      <button class="carousel-control-next" type="button" data-bs-target="#carouselFeatured" data-bs-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Next</span>
-      </button>
-    </div>
 
-    <div class="product-description">
-      <h5><strong>Counter Strike</strong></h5>
-      <p>Play the world's number 1 online action game. Engage in an incredibly realistic
-        brand of terrorist warfare in this wildly popular team-based game. Ally with teammates
-        to complete strategic missions. Take out enemy sites. Rescue hostages. Your role affects
-        your team's success. Your team's success affects your role.</p>
-      <p><small class="text-muted">Last updated 3 mins ago</small></p>
-    </div>
+      <div id="carouselFeatured" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselFeatured" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselFeatured" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselFeatured" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="https://cdn.glitch.com/f1678d51-50e6-4ba7-a0ab-ddd4a76e5657%2F10873456.jpg?v=1614881344684" class="d-block w-100 product-carousel" alt="cs-picture">
+          </div>
+          <div class="carousel-item">
+            <img src="https://cdn.glitch.com/f1678d51-50e6-4ba7-a0ab-ddd4a76e5657%2F1409302.jpg?v=1614881345620" class="d-block w-100 product-carousel" alt="cs-picture">
+          </div>
+          <div class="carousel-item">
+            <img src="https://cdn.glitch.com/f1678d51-50e6-4ba7-a0ab-ddd4a76e5657%2F6ac81d1d7bba60937db2e3f4a34059c5.jpg?v=1614881346394" class="d-block w-100 product-carousel" alt="cs-picture">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselFeatured" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselFeatured" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
 
-<!--
+      <div class="product-description">
+        <h5><strong>Counter Strike</strong></h5>
+        <p>Play the world's number 1 online action game. Engage in an incredibly realistic
+          brand of terrorist warfare in this wildly popular team-based game. Ally with teammates
+          to complete strategic missions. Take out enemy sites. Rescue hostages. Your role affects
+          your team's success. Your team's success affects your role.</p>
+        <p><small class="text-muted">Last updated 3 mins ago</small></p>
+      </div>
+
+      <!--
     <div class="product-description card mb-3">
       <div class="">
         <img src="https://cdn.glitch.com/f1678d51-50e6-4ba7-a0ab-ddd4a76e5657%2Fo1589232897513893.jpeg?v=1614808231845" class="card-img-top img-fluid game-picture-description" alt="games-picture">
@@ -153,91 +159,108 @@
     </div>
 -->
 
-  <div class="container-fluid product-data">
-    <table class="table product-description-table">
-      <thead>
-        <tr>
-          <th scope="col">Game Details</th>
-          <th scope="col"></th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <th scope="row">Release Date</th>
-          <td>2000-11-01</td>
-        </tr>
-        <tr>
-          <th scope="row">Developer</th>
-          <td>Valve</td>
-        </tr>
-        <tr>
-          <th scope="row">Publisher</th>
-          <td>Valve</td>
-        </tr>
-        <tr>
-          <th scope="row">Platforms</th>
-          <td>Windows / Mac / Linux</td>
-        </tr>
-        <tr>
-          <th scope="row">Categories</th>
-          <td>Multi-player / Online Multi-Player / Local Multi-Player / Valve Anti-Cheat Enabled</td>
-        </tr>
-        <tr>
-          <th scope="row">Genres</th>
-          <td>Action</td>
-        </tr>
-        <tr>
-          <th scope="row">Achievements</th>
-          <td>0</td>
-        </tr>
-        <tr>
-          <th scope="row">Positive Ratings</th>
-          <td>124534</td>
-        </tr>
-        <tr>
-          <th scope="row">Negative Ratings</th>
-          <td>3339</td>
-        </tr>
-        <tr>
-          <th scope="row">Average Playtime (Minutes)</th>
-          <td>17612</td>
-        </tr>
-        <tr>
-          <th scope="row">Median Playtime (Minutes)</th>
-          <td>317</td>
-        </tr>
-        <tr>
-          <th scope="row">Owners</th>
-          <td>10000000-20000000</td>
-        </tr>
-      </tbody>
-    </table>
-    <hr class="gameissues-hr issues-section-end">
-    </div>
+      <div class="container-fluid product-data">
+        <table class="table product-description-table">
+          <thead>
+            <tr>
+              <th scope="col">Game Details</th>
+              <th scope="col"></th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th scope="row">Release Date</th>
+              <td>2000-11-01</td>
+            </tr>
+            <tr>
+              <th scope="row">Developer</th>
+              <td>Valve</td>
+            </tr>
+            <tr>
+              <th scope="row">Publisher</th>
+              <td>Valve</td>
+            </tr>
+            <tr>
+              <th scope="row">Platforms</th>
+              <td>Windows / Mac / Linux</td>
+            </tr>
+            <tr>
+              <th scope="row">Categories</th>
+              <td>Multi-player / Online Multi-Player / Local Multi-Player / Valve Anti-Cheat Enabled</td>
+            </tr>
+            <tr>
+              <th scope="row">Genres</th>
+              <td>Action</td>
+            </tr>
+            <tr>
+              <th scope="row">Achievements</th>
+              <td>0</td>
+            </tr>
+            <tr>
+              <th scope="row">Positive Ratings</th>
+              <td>124534</td>
+            </tr>
+            <tr>
+              <th scope="row">Negative Ratings</th>
+              <td>3339</td>
+            </tr>
+            <tr>
+              <th scope="row">Average Playtime (Minutes)</th>
+              <td>17612</td>
+            </tr>
+            <tr>
+              <th scope="row">Median Playtime (Minutes)</th>
+              <td>317</td>
+            </tr>
+            <tr>
+              <th scope="row">Owners</th>
+              <td>10000000-20000000</td>
+            </tr>
+          </tbody>
+        </table>
+        <hr class="gameissues-hr issues-section-end">
+      </div>
 
-      </section>
+      <script>
+        $(document).ready(function() {
 
-    <!-- Footer Section -->
-    <section id="footer">
-      <div class="footer-background container-fluid">
-        <div class="row">
-          <div class="footer-text col-lg-9 col-md-8 col-sm-12">
-            <a class="navbar-brand"><img class="title-image" src="https://cdn.glitch.com/f1678d51-50e6-4ba7-a0ab-ddd4a76e5657%2Fcircle-cropped.png?v=1614619220015" alt="outer-heaven-logo" width="45" height="50">UTER HEAVEN</a>
-            <p class="copyright-text">© Copyright Outer Heaven. All trademarks and registered trademarks are the property of their respective owners.</p>
-          </div>
-          <div class="footer-social col-lg-3 col-md-4">
-            <div class="d-flex justify-content-center">
-              <a href="https://www.facebook.com" target="_blank"><i class="social-icon fab fa-facebook-f"></i></a>
-              <a href="https://www.twitter.com" target="_blank"><i class="social-icon fab fa-twitter"></i></a>
-              <a href="https://www.instagram.com" target="_blank"><i class="social-icon fab fa-instagram"></i></a>
-              <a href="mailto:fakeemail@gmail.com"><i class="social-icon fas fa-envelope"></i></a>
-            </div>
+          var i = 0;
+          $(".product").click(function() {
+
+            if (i == 0) {
+              $(this).html("Remove");
+              i = 1;
+            } else {
+              $(this).html("Add to cart");
+              i = 0;
+            }
+          });
+        });
+      </script>
+
+  </section>
+
+  <!-- Footer Section -->
+  <section id="footer">
+    <div class="footer-background container-fluid">
+      <div class="row">
+        <div class="footer-text col-lg-9 col-md-8 col-sm-12">
+          <a class="navbar-brand"><img class="title-image" src="https://cdn.glitch.com/f1678d51-50e6-4ba7-a0ab-ddd4a76e5657%2Fcircle-cropped.png?v=1614619220015" alt="outer-heaven-logo" width="45" height="50">UTER HEAVEN</a>
+          <p class="copyright-text">© Copyright Outer Heaven. All trademarks and registered trademarks are the property of their respective owners.</p>
+        </div>
+        <div class="footer-social col-lg-3 col-md-4">
+          <div class="d-flex justify-content-center">
+            <a href="https://www.facebook.com" target="_blank"><i class="social-icon fab fa-facebook-f"></i></a>
+            <a href="https://www.twitter.com" target="_blank"><i class="social-icon fab fa-twitter"></i></a>
+            <a href="https://www.instagram.com" target="_blank"><i class="social-icon fab fa-instagram"></i></a>
+            <a href="mailto:fakeemail@gmail.com"><i class="social-icon fas fa-envelope"></i></a>
           </div>
         </div>
       </div>
-    </section>
+    </div>
+  </section>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
 
 </body>
 
