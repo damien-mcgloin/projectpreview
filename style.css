@@ -73,8 +73,10 @@ html {
 
 .highlights-background {
   background-color: #28527a;
-  height: 70px;
+  height: auto;
   padding-top: 10px;
+  padding-left: 0;
+  padding-right: 0;
 }
 
 .highlights-text {
@@ -83,6 +85,7 @@ html {
   font-size: 1.5rem;
   letter-spacing: 0.2rem;
   margin: auto auto 0 auto;
+  padding-left: 15px;
 }
 
 .carousel-price {
@@ -96,10 +99,17 @@ html {
   margin: 15px 10px;
 }
 
+.carousel-image {
+  padding-bottom: 50px;
+  width: 100%;
+}
+
+/*
 .highlights-bottom-background {
   background-color: #28527a;
   height: 70px;
 }
+*/
 
 /* Featured Section */
 
