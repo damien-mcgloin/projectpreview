@@ -359,7 +359,7 @@ html {
 }
 
 .product-description-table {
-  margin: 50px auto auto;
+  margin: 50px auto 50px;
   width: 80%;
 }
 
@@ -601,6 +601,18 @@ html {
 
 .notice-text, .notice-text-color {
   font-size: 1.2rem;
+}
+
+.product-description {
+  font-size: 1.5rem;
+}
+
+.product-title {
+  font-size: 2rem;
+}
+
+.product-description-table {
+  font-size: 1.2rem
 }
 
 }
