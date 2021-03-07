@@ -586,6 +586,7 @@ html {
 }
 
 .recommended-list {
+  font-size: 1.3rem;
   margin: auto;
   margin-top: 20px;
   margin-bottom: 20px;
