@@ -22,6 +22,9 @@
   <!-- Font Awesome -->
   <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
 
+  <!-- JQuery -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+
   <title>Outer Heaven</title>
 </head>
 
@@ -51,14 +54,7 @@
           </div>
         </div>
 
-
-        <div class="navbar-assist col">
-          <li class="nav-item">
-            <a class="nav-search" href="#"><i class="fas fa-cart-plus"></i></a>
-          </li>
-        </div>
-
-        <div class="d-flex justify-content-end dropdown col">
+        <div class="dropdown d-flex justify-content-end col menu-button">
           <button class="btn btn-secondary dropdown-toggle btn-dark" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
             MENU
           </button>
@@ -66,8 +62,17 @@
             <li><a class="dropdown-item" href="recommended.html">Recommended</a></li>
             <li><a class="dropdown-item" href="community.html">Community</a></li>
             <li><a class="dropdown-item" href="support.html">Support</a></li>
-            <li><a class="dropdown-item" href="community.html#signup">Sign Up</a></li>
-            <li><a class="dropdown-item" href="#">Cart</a></li>
+            <li><a class="dropdown-item" href="community.html#signup">Sign in</a></li>
+            <li><a class="dropdown-item" href="#">Go to Cart</a></li>
+            <li><a class="dropdown-item" href="#">
+                <div class="cart">
+                  <div class="cart-header">Cart Info</div>
+                  <div class="cart-body" data-cart="display">
+                    <div>Total item(s): <span data-cart-total-item="0">0</span></div>
+                    <div>Total Price: $<span data-cart-total-price="0">0.00</span></div>
+                  </div>
+                </div></span></li>
+            </a></li>
             <li><a class="dropdown-item" href="#"><input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"></a></li>
           </ul>
         </div>
@@ -297,7 +302,7 @@
 <div class="mb-3 help-forum-box">
   <label for="formGroupInput2" class="form-label">Your issue</label>
   <input type="text" class="form-control" id="formGroupInput2" placeholder="the problem you're experiencing e.g framerate drops">
-  <button type="button" class="carousel-button btn btn-success">Send  Message</button>
+  <button type="button" class="btn btn-success request">Send  Message</button>
 </div>
 <hr class="gameissues-hr issues-section-end">
 </div>
@@ -322,6 +327,20 @@
       </div>
     </div>
   </section>
+
+  <script>
+
+    $(document).ready(function() {
+
+      $(".request").click(function() {
+          $(".text").remove();
+          $(this).html("Message Sent!");
+          setTimeout(location.reload.bind(location), 2000);
+          console.log("I was clicked");
+      });
+    });
+
+  </script>
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
 
