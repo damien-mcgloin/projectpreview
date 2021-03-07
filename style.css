@@ -104,7 +104,8 @@ html {
 /* Featured Section */
 
 .featured-background {
-  background-color: #8ac4d0;
+  /*background-color: #8ac4d0;*/
+  background-color: #9fd8df;
   height: auto;
   padding-top: 10px;
   padding-bottom: 10px;
@@ -246,7 +247,8 @@ html {
 /* Assistance Section */
 
 .assistance-background {
-  background-color: #8ac4d0;
+  /*background-color: #8ac4d0;*/
+  background-color: #9fd8df;
   color: black;
   height: auto;
   font-family: 'Roboto', sans-serif;
@@ -255,7 +257,7 @@ html {
 }
 
 .tablet-icon {
-  color: white;
+  color: #28527a;
 }
 
 .gameissues-hr {
@@ -316,7 +318,8 @@ html {
 }
 
 .product-info-background {
-  background-color: #8ac4d0;
+  /*background-color: #8ac4d0;*/
+  background-color: #9fd8df;
   font-family: 'Roboto', sans-serif;
   height: auto;
 }
@@ -377,7 +380,8 @@ html {
 }
 
 .recommended-games-background {
-  background-color:  #8ac4d0;
+  /*background-color:  #8ac4d0;*/
+  background-color: #9fd8df;
 }
 
 .recommended-button {
@@ -442,7 +446,8 @@ html {
 }
 
 .community-discussion-background {
-  background-color:  #8ac4d0;
+  /*background-color:  #8ac4d0;*/
+  background-color: #9fd8df;
   color: black;
   height: auto;
 }
