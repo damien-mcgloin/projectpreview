@@ -555,6 +555,10 @@ html {
     display: none;
   }
 
+  .recommended-button {
+    margin-left: 0;
+  }
+
 }
 
 @media (max-width: 1000px) {
@@ -613,6 +617,10 @@ html {
 
 .product-description-table {
   font-size: 1.2rem
+}
+
+.discussion-news {
+  font-size: 1.5rem;
 }
 
 }
