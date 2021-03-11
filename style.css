@@ -447,6 +447,11 @@ html {
   margin: auto;
 }
 
+.community-link-row {
+  margin-left: 0;
+  margin-right: 0;
+}
+
 /* Community Page */
 /* Community Header Section */
 
